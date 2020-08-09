@@ -15,7 +15,7 @@ $ composer install
 
 ## Page Access Custom EndPoint
 
-    *https://www.example.com**/sal-plug***
+*https://www.example.com**/sal-plug***
 
 ## Dependencies
 
@@ -28,6 +28,7 @@ Required to show table in front-end in custom page
 ## Code Compliance 
 
 ![Inpsyde Coding Style Compliant](https://img.shields.io/badge/Coding%20Style-Inpsyde-blue)
+
 This App is Inpsyde Coding Style Compliant
 ![Inpsyde Coding Style Compliant](assets/images/shots/inpsyde-coding-style-passing.png)
 

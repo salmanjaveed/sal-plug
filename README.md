@@ -15,7 +15,7 @@ $ composer install
 
 ## Page Access Custom EndPoint
 
-    _https://www.example.com**/sal-plug**_
+    *https://www.example.com**/sal-plug***
 
 ## Dependencies
 

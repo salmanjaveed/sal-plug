@@ -1,1 +1,4 @@
 /vendor/
+temp_scripts
+**/*.dev.*
+/scripts/js

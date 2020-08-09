@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 2%;
+}
+
+.side-head , .detail-head {
+    color: black;
+    padding: 10px 0 10px 10px;
+}
+
+.side-head {
+
+    background-color: e6e6e6;
+}
+.row-border {
+    border: 1px solid darkgray;
+}
+
+.top-bar {
+   padding:10px; background-color:royalblue;
+    width:100%; margin:0;
+}
+.logo {
+   color: peachpuff;
+   text-align: center;
+}

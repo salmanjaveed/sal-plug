@@ -1,15 +1,24 @@
 {
-    "name": "salman/sal-plug",
-    "description": "WordPress Plugin for Inpsyde Plugin Task",
-    "type": "plugin",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Salman Javeed",
-            "email": "salmanjaveed@gmail.com"
-        }
-    ],
-    "require": {
-        "twbs/bootstrap": "^4.5"
+  "name": "salman/sal-plug",
+  "description": "WordPress Plugin for Inpsyde Plugin Task",
+  "type": "plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Salman Javeed",
+      "email": "salmanjaveed@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SalPlug\\Src\\": "src/"
+    }
+  },
+  "require": {
+    "components/jquery": "^3.5",
+    "datatables/datatables": "^1.10"
+  },
+  "require-dev": {
+    "inpsyde/php-coding-standards": "^0.13.4"
+  }
 }

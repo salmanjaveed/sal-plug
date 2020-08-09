@@ -10,7 +10,8 @@
 
 ```
 $ git clone git@github.com:salmanjaveed/sal-plug.git
-$ composer install```
+$ composer install
+```
 
 ## Page Access Custom EndPoint
 

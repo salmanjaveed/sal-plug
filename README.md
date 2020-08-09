@@ -19,11 +19,10 @@ $ composer install
 
 ## Dependencies
 
-![PHP v7.4+](https://img.shields.io/badge/PHP-v7.4%2B-magenta)
-![jQuery v3.5.1](https://img.shields.io/badge/jquery-v3.5.1-green)
-![Datatables.net](https://img.shields.io/badge/Datatables.net-v1.10-green)
+![PHP v7.4+](https://img.shields.io/badge/PHP-v7.4%2B-magenta) ![jQuery v3.5.1](https://img.shields.io/badge/jquery-v3.5.1-green) ![Datatables.net](https://img.shields.io/badge/Datatables.net-v1.10-green)
 
 Required to show table in front-end in custom page
+
 
 ## Code Compliance 
 

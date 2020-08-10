@@ -24,15 +24,14 @@ $ composer install
 Required to show table in front-end in custom page
 
 ### Dev Dependencies
-![Inpsyde/php-coding-standards](https://img.shields.io/badge/Inpsyde%20Coding%20Standards-100%25-blue)![Brain\Monkey UnitTesting](https://img.shields.io/badge/Brain%5CMonkey-Unit%20Testing-blue)![PHPUnit Unit Testing](https://img.shields.io/badge/PHPUnit-Unit%20Testing-blue)
+![Inpsyde Coding Style Compliant](https://img.shields.io/badge/Coding%20Standard-Inpsyde-blue) ![Brain\Monkey UnitTesting](https://img.shields.io/badge/Brain%5CMonkey-Unit%20Testing-blue) ![PHPUnit Unit Testing](https://img.shields.io/badge/PHPUnit-Unit%20Testing-blue)
 
 For Coding Standards - Inpsyde Coding Standards
 For Unit Testing -  Brain\Monkey
                     PhpUnit\PhpUnit
 
 ## Code Compliance 
-
-![Inpsyde Coding Style Compliant](https://img.shields.io/badge/Coding%20Standard-Inpsyde-blue)
+![Inpsyde/php-coding-standards](https://img.shields.io/badge/Inpsyde%20Coding%20Standards-100%25-blue) 
 
 This App is Inpsyde Coding Style Compliant
 
@@ -54,4 +53,4 @@ Error Handling is taken care of so as not to hinder the smooth navigation of use
 
 Implemented using Brain\Monkey & Phpunit passes.
 
-![Unit Testing](assets/images/shots/testcase.png)
+![Unit Testing](assets/images/shots/testcase.jpg)

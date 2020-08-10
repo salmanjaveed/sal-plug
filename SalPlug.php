@@ -28,10 +28,6 @@ use SalPlug\Src\Init;
 
 class SalPlug
 {
-    public function checkDirectCall()
-    {
-    }
-
     public static function activateSalplug()
     {
         new Src\Activate();

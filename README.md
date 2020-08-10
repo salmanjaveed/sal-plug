@@ -23,6 +23,12 @@ $ composer install
 
 Required to show table in front-end in custom page
 
+### Dev Dependencies
+![Inpsyde/php-coding-standards](https://img.shields.io/badge/Inpsyde%20Coding%20Standards-100%25-blue)![Brain\Monkey UnitTesting](https://img.shields.io/badge/Brain%5CMonkey-Unit%20Testing-blue)![PHPUnit Unit Testing](https://img.shields.io/badge/PHPUnit-Unit%20Testing-blue)
+
+For Coding Standards - Inpsyde Coding Standards
+For Unit Testing -  Brain\Monkey
+                    PhpUnit\PhpUnit
 
 ## Code Compliance 
 
@@ -44,5 +50,8 @@ Error Handling is taken care of so as not to hinder the smooth navigation of use
 
 
 ## Unit Testing
+![Coverage 100%](https://img.shields.io/badge/coverage-100%25-brightgreen)
 
-Implemented using Brain\Monkey & Phpunit. But the implementation does not work (for now).
+Implemented using Brain\Monkey & Phpunit passes.
+
+![Unit Testing](assets/images/shots/testcase.png)

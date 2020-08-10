@@ -9,8 +9,10 @@ use SalPlug\Src\Template;
 
 final class Init
 {
+    
     public function __construct()
     {
+        //add_action('init', [$this, 'rewriteEndPoint']);
         add_action('parse_request', [$this, 'registerEndpoint'], 0);
     }
 
@@ -25,4 +27,9 @@ final class Init
             exit;
         }
     }
+
+    // public static function rewriteEndPoint()
+    // {
+    //     add_rewrite_endpoint('sal-plug', E_ALL);
+    // }
 }

@@ -1,21 +1,17 @@
 <?php declare (strict_types = 1);
 /*
- * @package sal-plug
+ * @package SalPlug
  */
 
 namespace SalPlug\Src;
+
+use SalPlug\Src\Template;
 
 final class Init
 {
     public function __construct()
     {
-        add_action('init', [$this, 'salPlugEndpoint']);
         add_action('parse_request', [$this, 'registerEndpoint'], 0);
-    }
-
-    public static function salPlugEndpoint()
-    {
-        add_rewrite_endpoint('sal-plug', EP_PERMALINK | EP_PAGES, true);
     }
 
     public static function registerEndpoint()

@@ -1,6 +1,6 @@
 <?php declare (strict_types = 1);
 /*
- * @package sal-plug
+ * @package SalPlug
  */
 
 namespace SalPlug\Src;

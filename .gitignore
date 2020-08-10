@@ -2,3 +2,6 @@
 temp_scripts
 **/*.dev.*
 /scripts/js
+wp.bat
+wp-cli.phar
+local.sql

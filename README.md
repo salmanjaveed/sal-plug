@@ -41,3 +41,8 @@ Used **force-cache** with the *fetch* method to cache repeated queries. Screensh
 ## Error Handling
 
 Error Handling is taken care of so as not to hinder the smooth navigation of users when an API *fetch* call fails. The method is appended with a catch and *console.logs* the error.
+
+
+## Unit Testing
+
+Implemented using Brain\Monkey & Phpunit. But the implementation does not work (for now).

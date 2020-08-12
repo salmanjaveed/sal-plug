@@ -86,5 +86,6 @@ final class SalPlug
         register_activation_hook("Src\\Deactivate", Deactivate::class);
     }
 }
-
+//phpcs:disable
 new SalPlug();
+//phpcs:enable

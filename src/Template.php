@@ -1,21 +1,44 @@
 <?php declare(strict_types=1);
 /**
- * @package SalPlug
+ * Php version 7.4.3
+ * Activation Hook
+ *
+ * @category WordPress_Plugin
+ * @package  SalPlug
+ * @author   Salman Javeed <salmanjaveed@gmail.com>
+ * @license  MIT (https://github.com/salmanjaveed/sal-plug/blob/master/License.txt)
+ * @link     -
  */
 
 namespace SalPlug\Src;
 
+    /**
+     * SalPlug Plugin for Inpsyde
+     *
+     * @category WordPress_Plugin
+     * @package  SalPlug
+     * @author   Salman Javeed <salmanjaveed@gmail.com>
+     * @license  https://github.com/salmanjaveed/sal-plug/blob/master/License.txt MIT
+     * @link     -
+     */
 class Template
 {
+    /**
+     *    Display first part of page
+     *
+     * @return void
+     */
     public static function display()
     {
+      // phpcs:disable
         ?>
-  <link rel="stylesheet" href=<?php echo esc_url_raw(PLUGIN_URL . "assets/css/style.min.css") ;?> >
-  <link rel="stylesheet" href=<?php echo esc_url_raw(PLUGIN_URL . "assets/css/style1.css") ;?> >
-  <link rel="stylesheet" href=<?php echo esc_url_raw(PLUGIN_URL .
-            "vendor/datatables/datatables/media/css/jquery.dataTables.min.css") ;?> >
-  <link rel="stylesheet" href=<?php echo esc_url_raw(PLUGIN_URL .
-            "assets/css/select.dataTables.min.css") ;?> >
+  <link rel="stylesheet" 
+  href=<?php echo esc_url_raw(PLUGIN_URL . "assets/css/style.min.css");?> >
+  <link rel="stylesheet" 
+  href=<?php echo esc_url_raw(PLUGIN_URL . "assets/css/style1.css");?> >
+  <link rel="stylesheet" href=<?php echo esc_url_raw(
+    PLUGIN_URL . "vendor/datatables/datatables/" . "media/css/jquery.dataTables.min.css");?> >
+  <link rel="stylesheet" href=<?php echo esc_url_raw(PLUGIN_URL . "assets/css/select.dataTables.min.css");?> >
   <div class="container-fluid top-bar">
     <div class="row">
       <div class="col-md-12">
@@ -27,7 +50,8 @@ class Template
     <div class="row">
       <!-- FIRST MAIN TABLE COLUMN-->
       <div class="col-md-7">
-        <table class="display dataTable" id="mainView" width="100%" cellspacing="0" role="grid">
+        <table class="display dataTable" id="mainView" width="100%" 
+        cellspacing="0" role="grid">
           <thead>
             <tr>
               <th>Id</th>
@@ -46,7 +70,11 @@ class Template
 
         <?php
     }
-
+    /**
+     *    Display second part of page
+     *
+     * @return void
+     */
     public static function display2()
     {
         ?>
@@ -93,7 +121,11 @@ class Template
             </div>
         <?php
     }
-
+    /**
+     *    Display first part of page
+     *
+     * @return void
+     */
     public static function display3()
     {
         ?>
@@ -130,5 +162,6 @@ class Template
 <!-- END OF HTML -->
 
                 <?php
+                //phpcs:enable
     }
 }

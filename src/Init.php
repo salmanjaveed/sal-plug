@@ -1,21 +1,44 @@
 <?php declare (strict_types = 1);
-/*
- * @package SalPlug
+/**
+ * Php version 7.4.3
+ * Activation Hook
+ *
+ * @category WordPress_Plugin
+ * @package  SalPlug
+ * @author   Salman Javeed <salmanjaveed@gmail.com>
+ * @license  MIT (https://github.com/salmanjaveed/sal-plug/blob/master/License.txt)
+ * @link     -
  */
 
 namespace SalPlug\Src;
 
 use SalPlug\Src\Template;
 
+    /**
+     * SalPlug Plugin for Inpsyde
+     *
+     * @category WordPress_Plugin
+     * @package  SalPlug
+     * @author   Salman Javeed <salmanjaveed@gmail.com>
+     * @license  https://github.com/salmanjaveed/sal-plug/blob/master/License.txt MIT
+     * @link     -
+     */
 final class Init
 {
-    
+    /**
+     *    Constructor Function
+     *
+     * @return void
+     */
     public function __construct()
     {
-        //add_action('init', [$this, 'rewriteEndPoint']);
         add_action('parse_request', [$this, 'registerEndpoint'], 0);
     }
-
+    /**
+     * Check for endpoint and display template
+     *
+     * @return void
+     */
     public static function registerEndpoint()
     {
         global $wp;
@@ -27,9 +50,4 @@ final class Init
             exit;
         }
     }
-
-    // public static function rewriteEndPoint()
-    // {
-    //     add_rewrite_endpoint('sal-plug', E_ALL);
-    // }
 }
